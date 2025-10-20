@@ -32,7 +32,7 @@ export default function Home() {
       title: "Joints de Pierres",
       subtitle: "Technique traditionnelle à l'ancienne",
       content: "Pose de pierres naturelles et réalisation de joints de pierres à l'ancienne. Spécialisation en rénovation de bâtiments anciens avec respect des techniques traditionnelles.",
-      image: "/menuiserie.png",
+      image: "/joint-de-pierre.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
     },
@@ -40,7 +40,7 @@ export default function Home() {
       title: "Ouvertures & Extensions",
       subtitle: "Création et agrandissement",
       content: "Création d'ouvertures dans murs porteurs, extensions de maison. Nous adaptons votre habitat à vos besoins avec expertise technique.",
-      image: "/macon.png",
+      image: "/extension.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997"
     },
@@ -48,7 +48,7 @@ export default function Home() {
       title: "Enduits de Façade",
       subtitle: "Finitions extérieures",
       content: "Application d'enduits de façade, finitions extérieures. Nous protégeons et embellissons vos murs avec des matériaux de qualité.",
-      image: "/menuiserie.png",
+      image: "/facade.png",
       gradientFrom: "#fd7e14",
       gradientTo: "#ffc107"
     },
@@ -56,7 +56,7 @@ export default function Home() {
       title: "Assainissement",
       subtitle: "Drainage et évacuation",
       content: "Assainissement, drainage, murs de soutènement. Solutions complètes pour la gestion des eaux et la stabilité de vos constructions.",
-      image: "/macon.png",
+      image: "/assainissement.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c"
     },
@@ -64,7 +64,7 @@ export default function Home() {
       title: "Terrassement",
       subtitle: "Petits travaux de terrassement",
       content: "Petits travaux de terrassement et finitions extérieures. Préparation de terrain et aménagements pour vos projets de construction.",
-      image: "/menuiserie.png",
+      image: "/terrassement.png",
       gradientFrom: "#17a2b8",
       gradientTo: "#6c757d"
     }

@@ -47,7 +47,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Garantie décennale.
+                Spécialiste en maçonnerie générale (gros second œuvre) et pose de menuiserie. Garantie décennale.
               </p>
               <a 
                 href="tel:0749229392" 
