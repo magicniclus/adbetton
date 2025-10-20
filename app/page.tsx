@@ -22,29 +22,61 @@ export default function Home() {
   const servicesData = [
     {
       title: "Maçonnerie Générale",
-      subtitle: "Gros Second Œuvre",
-      content: "Élévation de murs, cloisons, dalles, chapes. Nous réalisons tous vos travaux de maçonnerie générale avec expertise et garantie décennale.",
+      subtitle: "Construction neuve et extension",
+      content: "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton. Construction neuve et extension de maison avec garantie décennale.",
       image: "/macon.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
     {
-      title: "Pose de Menuiserie",
-      subtitle: "Installation Professionnelle",
-      content: "Fenêtres, portes, volets, cloisons. Nous installons vos menuiseries avec précision en respectant les règles de l'art.",
+      title: "Joints de Pierres",
+      subtitle: "Technique traditionnelle à l'ancienne",
+      content: "Pose de pierres naturelles et réalisation de joints de pierres à l'ancienne. Spécialisation en rénovation de bâtiments anciens avec respect des techniques traditionnelles.",
       image: "/menuiserie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
+    },
+    {
+      title: "Ouvertures & Extensions",
+      subtitle: "Création et agrandissement",
+      content: "Création d'ouvertures dans murs porteurs, extensions de maison. Nous adaptons votre habitat à vos besoins avec expertise technique.",
+      image: "/macon.png",
+      gradientFrom: "#28a745",
+      gradientTo: "#20c997"
+    },
+    {
+      title: "Enduits de Façade",
+      subtitle: "Finitions extérieures",
+      content: "Application d'enduits de façade, finitions extérieures. Nous protégeons et embellissons vos murs avec des matériaux de qualité.",
+      image: "/menuiserie.png",
+      gradientFrom: "#fd7e14",
+      gradientTo: "#ffc107"
+    },
+    {
+      title: "Assainissement",
+      subtitle: "Drainage et évacuation",
+      content: "Assainissement, drainage, murs de soutènement. Solutions complètes pour la gestion des eaux et la stabilité de vos constructions.",
+      image: "/macon.png",
+      gradientFrom: "#6f42c1",
+      gradientTo: "#e83e8c"
+    },
+    {
+      title: "Terrassement",
+      subtitle: "Petits travaux de terrassement",
+      content: "Petits travaux de terrassement et finitions extérieures. Préparation de terrain et aménagements pour vos projets de construction.",
+      image: "/menuiserie.png",
+      gradientFrom: "#17a2b8",
+      gradientTo: "#6c757d"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Zones d'intervention :\nIlle-et-Vilaine (35), Côtes-d'Armor (22)\nManche (50)",
-    phone: "07 49 22 93 92",
+    address: "8 avenues de moka\n35400 Saint-Malo\nRayon d'intervention : 50 km",
+    phone: "06 48 81 25 78",
     email: "adbetton32@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Saint-Malo,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -95,7 +127,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de maçonnerie ou pose de menuiserie en Bretagne et Normandie"
+        subtitle="Parlons de votre projet de maçonnerie générale, joints de pierres, extensions ou assainissement autour de Saint-Malo"
         contactInfo={contactInfo} 
       />
 

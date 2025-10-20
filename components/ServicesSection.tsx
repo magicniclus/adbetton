@@ -57,7 +57,7 @@ export default function ServicesSection({
         <div className={`grid gap-8 ${
           cards.length === 2 ? 'md:grid-cols-2' :
           cards.length === 3 ? 'md:grid-cols-2 lg:grid-cols-3' :
-          'md:grid-cols-2 lg:grid-cols-4'
+          'md:grid-cols-2 lg:grid-cols-3'
         }`}>
           {cards.map((card, index) => (
             <motion.div
